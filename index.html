@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crypto API</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div id="container">
+                <h1>Crypto JS API</h1>
+                <h2>Look up exchange rates around the world!</h2>
+                <div class="searchDiv">
+                        <button id="dkk">Show DKK</button>
+                        <button id="btc">Show BTC</button>
+                        <button id="btnAll">Show all</button>
+                        <br>
+                        <div class="searchItems">
+                            <p class="searchItemsText">Didnt find what you were looking for? Search for a specific one instead</p>
+                            <input type="text" id="userInput" placeholder="Full name of currency E.g British Pound Sterling" autofocus>
+                            <button id="submit">Search</button>
+                        </div>
+                </div>
+    </div>
+    <p id="errorDiv"></p>
+    <div id="content"></div>
+    <footer>
+        <p>Crypto Application</p>
+    </footer>
+    <!--
+        https://apiv2.bitcoinaverage.com/#constants
+        Create an application that extracts data from the crypto API. Use ES6 features like Object Literals and
+        Arrow functions in your code. Structure your code with ES6 Classes and methods.
+    -->
+    <script type="module" src="main.js"></script>
+</body>
+</html>
